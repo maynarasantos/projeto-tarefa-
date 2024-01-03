@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header .logo {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 150px;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(139, 145, 205), rgb(200, 236, 239) 100%);
+    display: flex;
+    color: white;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+header h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+header h3 {
+    font-size: 60px;
+    font-weight: 400;
+}
+header .computador{
+    width: 700px;
+    height: 700px;
+}
+
+article {
+    display: grid;
+    justify-items: center;
+    gap: 100px;
+    padding: 100px;
+    color: white;
+    background-color: rgb(139, 145, 205);
+}
+
+article h4 {
+    font-size: 50px;
+
+}
+
+.cards {
+    display: flex;
+    gap: 80px;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 0 50px 0 50px;
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+    color: rgb(33, 36, 59);
+
+
+
+
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 0 50px 0 0;
+}
+
+.card h5 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article button {
+    border: none;
+    padding: 18px 23px;
+    background-color: rgba(33, 36, 59, 0.5);
+    color: white;
+    border-radius: 40px;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer {
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(33, 36, 59);
+    font-weight: 600;
+}
